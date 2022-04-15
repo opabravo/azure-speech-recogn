@@ -36,7 +36,7 @@ def save_result(wav_name: str, result: str) -> str:
 
     index = 1
     while 1:
-        file_path = f'output/{wav_name}_{index}.txt'
+        file_path = f'output/{os.path.basename(wav_name)}_{index}.txt'
         if not os.path.exists(file_path):
             with open(file_path, 'w', encoding="utf-8") as f:
                 f.write(result)

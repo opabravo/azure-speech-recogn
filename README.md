@@ -4,7 +4,7 @@
 
 ### 已包裝程式下載
 
- [按此下載](https://github.com/opabravo/azure-speech-recogn/releases/download/1.0/vtt.exe)
+ [按此下載](https://github.com/opabravo/azure-speech-recogn/releases/download/1.1/vtt.exe)
 
 # 開發環境
 
