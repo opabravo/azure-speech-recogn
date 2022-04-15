@@ -142,3 +142,4 @@ cython_debug/
 config.py
 .idea
 settings.json
+output/*
