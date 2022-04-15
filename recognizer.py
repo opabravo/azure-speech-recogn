@@ -31,6 +31,9 @@ speech_config = speechsdk.SpeechConfig(subscription=API_KEY, region="eastus",
 
 
 def save_result(wav_name: str, result: str) -> str:
+    if not os.path.isdir('output'):
+        os.makedirs('output')
+
     index = 1
     while 1:
         file_path = f'output/{wav_name}_{index}.txt'
