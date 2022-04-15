@@ -143,4 +143,4 @@ config.py
 .idea
 settings.json
 output/*
-!output
+!output/
