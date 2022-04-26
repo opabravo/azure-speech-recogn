@@ -144,3 +144,4 @@ config.py
 settings.json
 output/*
 !output/voice_test.wav_1.txt
+!main.spec
