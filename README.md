@@ -8,6 +8,16 @@
 
 # 開發環境
 
-python 3.10
+ * python 3.10
 
 `pip install -r requirements.txt`
+
+# Compile
+ * 引入Azure語音服務套件所需的DLL
+ 
+```pyinstaller main.spec```
+
+# Refers
+ * SDK Portal For 各程式語言開發者 :
+
+[github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/quickstart](https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/quickstart)
