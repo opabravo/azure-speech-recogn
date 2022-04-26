@@ -145,3 +145,5 @@ settings.json
 output/*
 !output/voice_test.wav_1.txt
 !main.spec
+/a6h1a-oy5i5.wav
+/subtitle.srt
