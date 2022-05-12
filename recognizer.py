@@ -41,7 +41,7 @@ def save_result(wav_name: str, result: str) -> str:
             with open(file_path, 'w', encoding="utf-8") as f:
                 f.write(result)
                 print(f"------------\n已將結果儲存到: {file_path}")
-                break
+            break
         index += 1
 
 
