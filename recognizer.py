@@ -192,6 +192,8 @@ def translation_once_from_file(file_name):
     # shot recognition like command or query.
     # For long-running multi-utterance recognition, use start_continuous_recognition() instead.
     result = result_handler(recognizer.recognize_once())
+    if not result:
+        return print("There's no valid result! Not Saving")
     save_result(file_name, result)
 
 
